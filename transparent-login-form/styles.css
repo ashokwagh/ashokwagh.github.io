@@ -80,8 +80,11 @@ body {
 .input-group.success .msg, .input-group.error .msg {
     display: block;
 }
-.input-group .msg {
-    display: block;
+.input-group.success .msg {
+    color: hsl(var(--success-hsl));
+}
+.input-group.error .msg {
+    color: hsl(var(--error-hsl));
 }
 .login-button {
     padding: .5em 1em;
